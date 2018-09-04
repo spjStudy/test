@@ -59,6 +59,7 @@ public class StudentController {
 	}
 	@RequestMapping(value = "/student/{sno}")
 	public List<Object> getByStudent(@PathVariable String sno) {
+		System.out.println("你好github");
 		return studentRepository.getByUserId();
 	}
 }
