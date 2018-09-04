@@ -1,0 +1,24 @@
+
+version = '1.0'
+jar {
+    manifest {
+        attributes 'Main-Class': 'com.sgcc.uap.Application'
+    }
+}
+apply plugin: 'eclipse'
+ 
+    eclipse {
+        classpath {
+           downloadSources=true
+        }
+    }
+
+repositories {
+    flatDir {
+        dirs 'lib'
+    }
+}
+
+dependencies {
+   
+}
