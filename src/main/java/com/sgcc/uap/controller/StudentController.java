@@ -1,7 +1,6 @@
 package com.sgcc.uap.controller;
 
 import java.util.List;
-import java.util.Map;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -16,9 +15,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.sgcc.uap.domain.Student;
-import com.sgcc.uap.repositories.StudentRepository;
-import com.sgcc.uap.rest.support.QueryResultObject;
-import com.sgcc.uap.rest.support.WrappedResult; 
+import com.sgcc.uap.repositories.StudentRepository; 
 
 /**
  * <b>概述</b>：<br>
