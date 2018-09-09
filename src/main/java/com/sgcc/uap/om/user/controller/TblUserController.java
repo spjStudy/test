@@ -182,7 +182,7 @@ public class TblUserController {
 //			requestCondition.setFilter("id=9&age=32");
 			requestCondition.setPageIndex(1);
 			requestCondition.setPageSize(10);
-			
+			System.out.println("大叔大婶");
 				QueryResultObject 	datas = tblUserService.getPageAll(requestCondition);
 			return  WrappedResult.successWrapedResult(datas);
 		}catch(Exception e){
