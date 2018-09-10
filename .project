@@ -23,7 +23,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1535508800031</id>
+			<id>1536561216407</id>
 			<name></name>
 			<type>26</type>
 			<matcher>
@@ -32,6 +32,10 @@
 					<matcher>
 						<id>org.eclipse.ui.ide.multiFilter</id>
 						<arguments>1.0-projectRelativePath-equals-true-false-micro-service</arguments>
+					</matcher>
+					<matcher>
+						<id>org.eclipse.ui.ide.multiFilter</id>
+						<arguments>1.0-projectRelativePath-equals-true-false-micro-service1</arguments>
 					</matcher>
 				</arguments>
 			</matcher>

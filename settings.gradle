@@ -1,1 +1,1 @@
-include 'micro-service'
+include 'micro-service','micro-service1'
