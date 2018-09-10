@@ -1,0 +1,5 @@
+#org.springsource.ide.eclipse.gradle.core.preferences.GradleProjectPreferences
+#Wed Aug 29 11:26:38 CST 2018
+build.family.org.gradle.tooling.model.eclipse.HierarchicalEclipseProject=;micro-service;
+org.springsource.ide.eclipse.gradle.linkedresources=
+org.springsource.ide.eclipse.gradle.rootprojectloc=
